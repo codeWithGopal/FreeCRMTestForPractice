@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Free crm test automation suite">
+ 
+  <listeners>
+     <listener class-name="step.com.crm.qa.extentreportlisteners.ExtentReportListener"/>
+   </listeners>
+<test name= "Free Crm App Test cases ">
+ 
+    <classes>
+       <class name= "step.com.crm.qa.testcases.LoginPageTest" />
+       <class name= "step.com.crm.qa.testcases.HomePageTest" />
+       <class name= "step.com.crm.qa.testcases.ContactsPageTest" />
+       
+      
+
+    </classes>
+</test>
+</suite>
